@@ -1,0 +1,21 @@
+.fonasmain {
+width: 500px;
+display: flex;
+background-color: rgb(21, 118, 203);
+}
+
+.sonas {
+width: 100px;
+height: 600px;
+display: flex;
+flex-direction: column;
+background-color: rgb(229, 240, 249);
+gap: 100px;
+}
+
+.logai {
+    width: 30px;
+    flex-direction: column;
+    align-content: center;
+    gap: 100px;
+}
