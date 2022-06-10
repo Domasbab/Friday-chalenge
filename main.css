@@ -1,21 +1,48 @@
-.fonasmain {
-width: 500px;
-display: flex;
-background-color: rgb(21, 118, 203);
+body {
+    margin: 0;
+}
+
+.logotipas {
+    margin-top: 35px;
 }
 
 .sonas {
-width: 100px;
-height: 600px;
+width: 206px;
+height: 100vh;
 display: flex;
-flex-direction: column;
 background-color: rgb(229, 240, 249);
-gap: 100px;
+gap: 30px;
+flex-direction: column;
+align-items: center;
+transition: 1s;
 }
 
-.logai {
-    width: 30px;
-    flex-direction: column;
-    align-content: center;
-    gap: 100px;
+.sonas:hover {
+    width: 300px;
 }
+
+.linkai {
+display: flex;
+align-self: flex-start;
+margin-left: 37px;
+}
+
+.zodziai {
+margin: 0;
+margin-left: 19px;
+
+}
+
+.hare {
+    width: 60%;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+
+.Fonasmain {
+width: 100% ;
+justify-content: center;
+align-items: center;
+
+}
+
