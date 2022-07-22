@@ -7,10 +7,10 @@ body {
 }
 
 .sonas {
-width: 206px;
+width: 100px;
 height: 100vh;
 display: flex;
-background-color: rgb(229, 240, 249);
+background-color: #F7F6FF;
 gap: 30px;
 flex-direction: column;
 align-items: center;
@@ -18,31 +18,49 @@ transition: 1s;
 }
 
 .sonas:hover {
-    width: 300px;
+    width: 206px;
+}
+
+.sonas:hover .zodziai {
+/* display: block; */
+visibility: visible;
+transition: 2s ;
+opacity: 1;
 }
 
 .linkai {
 display: flex;
 align-self: flex-start;
 margin-left: 37px;
+color: #C4C4C4;
+}
+
+.linkai:hover {
+    width: 300px;
+    text-decoration: dotted;
+    border-radius: 12px;
 }
 
 .zodziai {
 margin: 0;
 margin-left: 19px;
-
+/* display: none; */
+visibility: hidden;
+opacity: 0;
 }
+
+
 
 .hare {
     width: 60%;
-    border: 1px solid gray;
+    border: 1px solid #C4C4C4;
     margin-top: 10px;
+    
 }
 
 .Fonasmain {
 width: 100% ;
 justify-content: center;
 align-items: center;
-
 }
 
